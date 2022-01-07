@@ -1,0 +1,26 @@
+{
+  "name": "faucet_dapp_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthpatel176/faucet_dapp_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthpatel176/faucet_dapp_back/issues"
+  },
+  "homepage": "https://github.com/parthpatel176/faucet_dapp_back#readme",
+  "devDependencies": {
+    "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
+}
