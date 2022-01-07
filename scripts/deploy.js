@@ -9,7 +9,7 @@ const main = async () => {
     // deploy contract  
     const contractFactory = await hre.ethers.getContractFactory('Faucet');
     const contract = await contractFactory.deploy({
-        value: hre.ethers.utils.parseEther("0.1"),
+        value: hre.ethers.utils.parseEther("0.3"),
     });
     await contract.deployed();
   
